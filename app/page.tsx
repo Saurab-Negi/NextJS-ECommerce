@@ -1,5 +1,13 @@
+import Container from "@/components/Container";
+import { Button } from "@/components/ui/button";
+
 export default function Home() {
   return (
-    <div className="">Hello World</div>
+    <>
+    <Container>
+      <div className="">Hello World</div>
+      <Button>Click Me</Button>
+    </Container>
+    </>
   );
 }
